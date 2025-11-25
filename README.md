@@ -4,7 +4,7 @@
 
 An interactive web application that provides AI-powered coaching and guidance for securing corporate sponsorships for environmental initiatives. Features a comprehensive 7-module curriculum with real-time RAG-powered chat assistance.
 
-![TAP Outreach Playbook Screenshot](https://via.placeholder.com/800x400/10b981/ffffff?text=TAP+Outreach+Playbook)
+![TAP Outreach Playbook Screenshot](./docs/images/app-screenshot.png))
 
 ## Features
 
@@ -900,12 +900,19 @@ npm run test:build   # Build verification
 
 ---
 
-## 📄 License
+## License
 
 This project is proprietary software developed for The Total Altruism Project.
 
 ---
+## Contributors
 
+**Development Team:**
+- **Denise Vo and Lucy Chen** - Project Managers
+- **Shyami Govind** - Development oversight and built of Contact finder tools, Hunter.io integration, RAG system implementation and AI Chat assistant  
+- **Diksha Sivaprasad** - Modules 3 & 6
+- **Saman Sadeghi** - Module 4, 5 & 7
+- **Jenny Vo** - Module 1 & 2
 
 ---
 
