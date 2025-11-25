@@ -125,7 +125,7 @@ Before setting up the TAP Outreach Playbook, ensure you have:
    
    Navigate to `http://localhost:5173` to see the application.
 
-### ⚡ Quick Health Check
+### Quick Health Check
 
 Run a quick status check anytime:
 ```bash
@@ -138,7 +138,7 @@ npm run test:modules    # Verify module content
 
 ---
 
-## 🛠️ Setup Validation System
+## Setup Validation System
 
 ### Automated Validation Scripts
 
@@ -344,7 +344,7 @@ The contact finder tool uses Hunter.io for email discovery and verification.
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 TAP_Outreach_Playbook/
@@ -378,7 +378,7 @@ TAP_Outreach_Playbook/
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
