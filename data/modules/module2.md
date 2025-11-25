@@ -1,143 +1,204 @@
 # Module 2 — Identifying Target Sponsors
-Research and evaluate high-fit companies for T.A.P. partnerships
+Research and evaluate potential corporate partners who best align with The Total Altruism Project (T.A.P.)
 
 ---
 
 ## 1. How to Research Target Companies
 
-Strong sponsors share alignment with T.A.P.’s mission, have CSR/ESG priorities, and maintain a community presence. Begin your research from these categories:
+Strong sponsors match T.A.P.’s mission, have proven CSR commitments, and maintain a presence in the local community.  
+This module helps you identify, research, and score companies using a structured, repeatable system.
 
-### Where to Find Ideal Sponsors
+### 🔍 Where to Find Ideal Sponsors
 
-#### 1. Fortune 500 Companies
-- Publish sustainability/ESG reports  
-- Often have dedicated CSR budgets  
-- Look for companies with community, environment, or social-impact initiatives  
+#### 1. Fortune 500 & Public Companies
+- Publish annual ESG/CSR reports  
+- Established sustainability budgets  
+- Clear metrics and community commitments  
 
 #### 2. Local & Regional Businesses
-- Regional banks and credit unions  
-- Grocery stores, hospitals, utility companies  
-- Typically easier to access and motivated to support local causes  
+- Utility companies (SDG&E, SoCalGas, water districts)  
+- Regional banks & credit unions  
+- Hospitals, retail chains, tourism industries  
+- Easier access to decision-makers  
 
-#### 3. Environmental / Outdoor Brands
-- Outdoor gear companies  
-- Sustainable product brands  
-- Mission alignment is naturally strong with T.A.P.  
+#### 3. Environmental & Outdoor Brands
+- Outdoor retailers (REI, Patagonia)  
+- Eco-friendly and sustainable brands  
+- Natural mission alignment with T.A.P.  
 
 #### 4. Tech Companies
-- Strong ESG commitments  
-- Support innovative environmental/community initiatives  
-- Often open to pilot partnerships  
+- Strong ESG focus  
+- Support innovation, STEM education, and community programs  
+- Many operate large volunteer programs  
 
 ---
 
 ## 2. Key Research Points
 
-When evaluating a potential sponsor, investigate:
+When analyzing a company, gather information in these areas:
 
 ### ✓ Existing CSR Initiatives
-Do they already support environmental, community, or sustainability programs?
+Do they sponsor environmental programs, community work, education, or sustainability campaigns?
 
-### ✓ Company Values
-Review their:
+### ✓ Company Values & Mission
+Check:
 - Mission statement  
-- “About” page  
-- Recent press releases  
+- “About Us” page  
+- Press releases  
+- Leadership statements  
 
 ### ✓ Geographic Relevance
-Do they operate near T.A.P. stations or in communities where T.A.P. wants to expand?
+Does the company operate:
+- Near T.A.P. stations  
+- In schools/districts where expansion is planned  
+- In coastal or environmentally sensitive regions  
 
 ### ✓ Recent News
-Look for:
-- Major partnerships  
-- Leadership transitions  
-- Expansion announcements  
-- New ESG commitments  
+Track:
+- New grants or sponsorships  
+- Expansion into new regions  
+- Leadership changes  
+- Sustainability pledges  
 
 ### ✓ Budget Indicators
-Consider:
+Look at:
 - Company size  
-- Revenue or profitability  
-- Growth activity  
-- Prior sponsorship spending  
+- Revenue/financial stability  
+- History of philanthropic activity  
+- Foundation presence  
 
 ---
 
-## 3. Sponsor Evaluation Matrix
+## 3. Online Research Tool (New)
 
-Use this scoring tool to objectively evaluate companies.  
-Rate each factor **1–10**:
+Your playbook includes a built-in tool that instantly generates search links for any company across:
 
-### A. Values Alignment
-How strongly the company’s mission and CSR activity align with T.A.P.’s environmental and community goals.
+- **Google Search** — CSR initiatives, sponsorship activity  
+- **Official Website** — mission & values  
+- **LinkedIn** — company profile & contacts  
+- **Instagram** — community engagement culture  
+- **Facebook** — events & public presence  
 
-### B. Budget Potential
-Company size, profitability, and history of sponsoring community/environmental programs.
-
-### C. Decision-Maker Accessibility
-- Ease of finding contact info  
-- LinkedIn activity of relevant stakeholders  
-- Warm introductions or known connections  
-
-### Scoring Formula
-
-**Average Score = (Alignment + Budget + Accessibility) ÷ 3**
+This lets you quickly assess:
+- How they communicate their community involvement  
+- Whether sustainability is a real priority  
+- How easy it is to identify decision-makers  
 
 ---
 
-## 4. Score Interpretation Guide
+## 4. Sponsor Evaluation Matrix (Weighted 30-Point System)
 
-| Average Score | Meaning           | Recommendation                     |
-|--------------:|------------------|------------------------------------|
-| 8–10          | Excellent Target  | 🎯 Prioritize immediately          |
-| 6–7           | Good Target       | ✅ Worth pursuing                  |
-| 4–5           | Moderate Target   | ⚠️ Lower priority                  |
-| 1–3           | Poor Match        | ❌ Likely not worth outreach       |
+This module now uses a **6-factor weighted scoring rubric** (max 30 points).  
+Each factor is rated **1–5**, multiplied by its weight.
 
----
+### 🎯 Scoring Factors & Weights
 
-## 5. Example Research Profile — Patagonia
+| Factor | Weight | Meaning |
+|--------|--------|---------|
+| Mission & Values Alignment | **20%** | Environmental + community fit |
+| Education & Youth Engagement Fit | **20%** | Support for learning & youth programs |
+| Community Presence | **20%** | Local relevance to T.A.P. stations |
+| Giving Capacity | **23%** | Ability + history of funding causes |
+| Employee Engagement Potential | **10%** | Volunteer programs & workforce size |
+| Marketing & Visibility Alignment | **7%** | Branding & outreach opportunities |
 
-### Company Overview
-- **Industry:** Outdoor apparel & gear  
-- **Employees:** ~3,000  
-- **Revenue:** \$1B+ annually  
-- **HQ:** Ventura, CA  
+Each factor is rated 1–5, then weighted and combined.
 
-### Environmental Commitment
-- Member of **1% for the Planet**  
-- Long history of environmental activism  
-- Strong sustainability mission  
-- Established community grant programs  
+### ⭐ Score Interpretation (Out of 30)
 
-### Why Patagonia Is an Ideal Target
-Patagonia’s mission is deeply connected to environmental action and grassroots engagement — both core to T.A.P.  
-They actively seek measurable, on-the-ground impact programs, making them directly aligned with the T.A.P. station model.
+| Total Score | Band | Meaning |
+|------------:|------|---------|
+| **25.5–30** | 🟩 Excellent Fit | High-priority target |
+| **21–25.4** | 🟩 Strong Fit | Worth cultivating |
+| **15–20.9** | 🟨 Moderate Fit | Opportunistic sponsor |
+| **6–14.9** | 🟥 Weak Fit | Low-effort priority |
 
 ---
 
-## 6. Building Your Target List
+## 5. Example Sponsor Profiles
 
-Create a growing list of potential companies and track why they may be a good fit.
+Your module includes two example research profiles.  
+Below is the reference material included in the models.
 
-### For each company, capture:
+---
+
+### 🟢 **Example 1: Patagonia**
+
+**Industry:** Outdoor apparel  
+**Employees:** ~3,000  
+**Revenue:** $1B+  
+**HQ:** Ventura, CA  
+
+**Environmental Commitment**
+- 1% for the Planet  
+- Deep sustainability mission  
+- Long history of activism  
+- Community grant programs  
+
+**Why Patagonia is Ideal**
+Patagonia values grassroots environmental action — perfectly aligned with T.A.P.’s youth-led station model.  
+Their brand messaging directly supports measurable environmental impact.
+
+**Estimated Score:** **27/30 — Excellent Fit**
+
+---
+
+### 🔵 **Example 2: Qualcomm Foundation**
+
+**Industry:** Technology / Telecommunications  
+**Parent Company:** Qualcomm Inc. (50,000+ employees)  
+**Focus Areas:** STEM education, community engagement, sustainability  
+**HQ:** San Diego  
+
+**Strengths**
+- Strong youth education focus  
+- Innovation + technology alignment  
+- Large employee volunteer programs  
+- Dedicated community foundation  
+
+**Challenges**
+- Heavily STEM-focused  
+- Competitive grant cycles  
+- Large approval processes  
+
+**Why Qualcomm Foundation is Strong**
+Their focus on youth engagement, STEM learning, and community innovation aligns naturally with T.A.P.’s student-centered water testing stations.
+
+**Estimated Score:** **23/30 — Strong Fit**
+
+---
+
+## 6. Build Your Target List
+
+The module includes a target list builder.  
+For each company, record:
+
 - Company name  
-- Why they are a good match  
-- Initial evaluation score (using the matrix above)  
-- Potential contacts or intros  
-- Notes from research  
+- Why they're a good fit  
+- Weighted score (from the calculator)  
+- Research notes  
+- CSR/ESG contact leads  
+- Links to CSR pages, LinkedIn, press releases  
 
-### Example Entries
-1. **REI** — Outdoor brand with environmental and community programs; multiple locations near T.A.P. stations.  
-2. **Starbucks** — Large community presence, sustainability messaging, heavy footprint in local communities.  
-3. **Local Credit Union** — Community-focused, regionally present, easier decision-maker access.  
+### Included Suggested Starter Companies
+- SDG&E  
+- REI  
+- Clif Family Foundation  
+- Patagonia  
+- San Diego Foundation  
+
+You can add unlimited new companies, remove them, and refine your list as you research.
 
 ---
 
 ## Module 2 Outcomes
 
-By the end of this module you will have:
+By completing this module, you will have:
 
-- A clear definition of what makes a high-value sponsor  
-- A scoring framework to prioritize targets  
-- A working list of companies ready for contact-finding in **Module 3**  
+✔ A clear understanding of what makes an ideal T.A.P. sponsor  
+✔ A structured scoring system to evaluate companies objectively  
+✔ A curated list of high-priority target companies  
+✔ Search tools to research CSR activity and decision-makers  
+✔ A foundation to move into **Module 3 — Finding the Right Contacts**  
+
+---

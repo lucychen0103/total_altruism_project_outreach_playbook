@@ -385,6 +385,10 @@ export default function Module4({ onComplete, onBack }: Module4Props) {
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start gap-2">
                   <span className="text-emerald-600 font-bold">•</span>
+                  <span><strong>Large-Scale Outreach:</strong> Send hundreds or thousands of personalized emails efficiently, reaching far more prospects than manual outreach ever could</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-emerald-600 font-bold">•</span>
                   <span><strong>Automatic Follow-Ups:</strong> Send sequences without manual work</span>
                 </li>
                 <li className="flex items-start gap-2">

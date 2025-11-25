@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    
+    "validate": "node validate-setup.js",
+    "validate:shell": "chmod +x validate-setup.sh && ./validate-setup.sh",
+    "setup": "npm run validate && npm run build",
+    "quick-check": "node -e \"console.log('Node:', process.version); console.log('npm:', require('child_process').execSync('npm -v', {encoding:'utf8'}).trim()); console.log('Project dir:', process.cwd()); console.log('package.json:', require('fs').existsSync('./package.json') ? '✅' : '❌'); console.log('.env file:', require('fs').existsSync('./.env') ? '✅' : '❌'); console.log('node_modules:', require('fs').existsSync('./node_modules') ? '✅' : '❌');\"",
+    
+    "test:build": "npm run build && echo 'Build test passed ✅'",
+    "test:env": "node -e \"require('dotenv').config(); console.log('OpenAI key:', process.env.VITE_OPENAI_API_KEY ? '✅ Set' : '❌ Missing'); console.log('Hunter key:', process.env.VITE_HUNTER_API_KEY ? '✅ Set' : '❌ Missing');\"",
+    "test:modules": "node -e \"const fs=require('fs'); const modules=['module1.md','module2.md','module3.md','module4.md','module5.md','module6.md','module7.md']; modules.forEach(m => console.log(m + ':', fs.existsSync('./public/data/modules/' + m) ? '✅' : '❌'));\"",
+    
+    "doctor": "npm run validate",
+    "health-check": "npm run quick-check && npm run test:env && npm run test:modules",
+    "full-setup": "npm install && npm run validate && npm run build && echo '🎉 TAP Outreach Playbook is ready!'"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}

@@ -170,13 +170,21 @@ export default function Module5({ onComplete, onBack }: Module5Props) {
           <div className="space-y-6">
             <div className="bg-gradient-to-r from-blue-50 to-cyan-50 p-6 rounded-lg border-2 border-blue-200">
               <h3 className="font-bold text-blue-900 mb-3 text-lg">
-                San Diego Nonprofit Success Story
+                Northern California Nonprofit Success Story
               </h3>
               <p className="text-gray-700 mb-4">
-                The Pacific Beach Coalition, a local San Diego environmental nonprofit, offers an excellent
+                The Pacific Beach Coalition, a Northern California environmental nonprofit, offers an excellent
                 sponsorship model that T.A.P. can learn from. Their approach demonstrates transparency,
                 clear value proposition, and audience reach metrics.
               </p>
+              <a
+                href="https://www.pacificbeachcoalition.org/become-a-sponsor/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-blue-700 hover:text-blue-900 font-semibold text-sm underline"
+              >
+                View Pacific Beach Coalition's Sponsorship Page →
+              </a>
             </div>
 
             <div className="bg-white border-2 border-emerald-200 rounded-lg p-6">
@@ -520,7 +528,7 @@ export default function Module5({ onComplete, onBack }: Module5Props) {
                 <p className="text-blue-50">Impressions per year (1,000 weekly path users × 52 weeks)</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg">
-                <div className="text-3xl font-bold mb-1">1 tons</div>
+                <div className="text-3xl font-bold mb-1">1 ton</div>
                 <p className="text-blue-50">Estimated litter removed from sponsored stations</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg">

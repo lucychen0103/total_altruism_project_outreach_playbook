@@ -554,18 +554,18 @@ Hi [Contact Name],
 
 Happy to share this month's highlights from your T.A.P. partnership!
 
-IMPACT THIS MONTH:
+📊 IMPACT THIS MONTH:
 • [X] lbs of litter removed from your sponsored stations
 • [X] community members participated
 • [X] volunteer hours contributed
 
-VISUAL HIGHLIGHTS:
+📸 VISUAL HIGHLIGHTS:
 [Attach 2-3 photos]
 
-SPECIAL MOMENT:
+🎉 SPECIAL MOMENT:
 [Brief story or testimonial]
 
-COMING UP:
+🔜 COMING UP:
 [Any upcoming activities or events]
 
 As always, let me know if you need anything or have questions!
@@ -611,7 +611,7 @@ Best,
           </div>
 
           <div className="mt-8 text-2xl font-bold">
-            You're making the world cleaner, one sponsor at a time!
+            You're making the world cleaner, one sponsor at a time! 🌍
           </div>
         </section>
       </div>

@@ -447,7 +447,7 @@ Focus on ACTIONABLE next steps the user can take right now. NEVER respond withou
       
       // M6 keywords
       'meeting': 'M6', 'negotiation': 'M6', 'objection': 'M6', 'budget': 'M6', 'presentation': 'M6',
-      'felt': 'M6', 'found': 'M6', 'handle': 'M6', 'respond': 'M6', 'pitch': 'M6',
+      'felt': 'M6', 'found': 'M6', 'handle': 'M6', 'respond': 'M6', 'pitching': 'M6',
       
       // M7 keywords
       'partnership': 'M7', 'maintain': 'M7', 'renewal': 'M7', 'contract': 'M7', 'relationship': 'M7',
