@@ -72,30 +72,14 @@ Before setting up the TAP Outreach Playbook, ensure you have:
    VITE_HUNTER_API_KEY=your_hunter_io_api_key_here
    ```
 
-4. **Add Module Content**
-   
-   Place the TAP module markdown files in the public directory:
-   ```
-   public/
-   └── data/
-       └── modules/
-           ├── module1.md
-           ├── module2.md
-           ├── module3.md
-           ├── module4.md
-           ├── module5.md
-           ├── module6.md
-           └── module7.md
-   ```
-
-5. **Start the Development Server**
+4. **Start the Development Server**
    ```bash
    npm run dev
    # or
    yarn dev
    ```
 
-6. **Open Your Browser**
+5. **Open Your Browser**
    
    Navigate to `http://localhost:5173` to see the application.
 
@@ -159,10 +143,10 @@ The contact finder tool uses Hunter.io for email discovery and verification.
    ```
 
 #### Free Tier Limits
-- **25 requests per month** on free plan
-- **Email Finder**: 10 searches per month
-- **Email Verifier**: 25 verifications per month
-- **Domain Search**: 25 searches per month
+- **25 email searches per month** (Email Finder + Domain Search combined)
+- **50 email verifications per month** (Email Verifier)
+- **Rate limits**: 15 requests/second for searches, 10 requests/second for verification
+- **API access**: Full API access included in free tier
 
 #### Upgrading (Optional)
 - **Starter Plan**: $49/month for 1,000 requests
