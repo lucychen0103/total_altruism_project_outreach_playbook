@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  header,
+  button {
+    display: none !important;
+  }
+
+  .bg-gradient-to-br,
+  .bg-gradient-to-r {
+    background: white !important;
+    color: black !important;
+  }
+
+  .shadow-lg,
+  .shadow-md {
+    box-shadow: none !important;
+  }
+
+  * {
+    break-inside: avoid;
+  }
+}
