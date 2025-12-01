@@ -4,7 +4,7 @@
 
 An interactive web application that provides AI-powered coaching and guidance for securing corporate sponsorships for environmental initiatives. Features a comprehensive 7-module curriculum with real-time RAG-powered chat assistance.
 
-![TAP Outreach Playbook Screenshot](./docs/images/app-screenshot.png))
+![TAP Outreach Playbook Screenshot](./docs/images/app-screenshot.png)
 
 ## Features
 
