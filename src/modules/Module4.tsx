@@ -342,6 +342,13 @@ export default function Module4({ onComplete, onBack }: Module4Props) {
               <li>• <strong>Choose Lemlist</strong> if you want advanced personalization features (images, videos) and multi-channel outreach</li>
             </ul>
           </div>
+
+          <div className="mt-4 bg-purple-50 p-4 rounded-lg border-l-4 border-purple-500">
+            <h3 className="font-bold text-purple-900 mb-2">Compliance & Unsubscribe:</h3>
+            <p className="text-sm text-gray-700">
+              All major email automation tools automatically include an unsubscribe feature in your emails to ensure compliance with email regulations (CAN-SPAM, GDPR). Recipients can opt out at any time, and the tools will automatically remove them from your campaigns.
+            </p>
+          </div>
         </section>
 
         {/* Why Email Automation Tools Matter */}
