@@ -1,7 +1,6 @@
 import ModuleLayout from '../components/ModuleLayout';
-import InteractiveTextArea from '../components/InteractiveTextArea';
 import { Building2, Search, Calculator, ExternalLink, Globe, Facebook, Instagram, Linkedin } from 'lucide-react';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 interface Module2Props {
   onComplete: () => void;

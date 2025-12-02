@@ -1,5 +1,4 @@
 import ModuleLayout from '../components/ModuleLayout';
-import InteractiveTextArea from '../components/InteractiveTextArea';
 import ChecklistItem from '../components/ChecklistItem';
 import { Mail, Zap, TrendingUp, ExternalLink, BarChart3 } from 'lucide-react';
 
@@ -9,29 +8,6 @@ interface Module4Props {
 }
 
 export default function Module4({ onComplete, onBack }: Module4Props) {
-  const emailTools = [
-    {
-      name: 'Woodpecker',
-      limit: 'Free trial: 14 days',
-      features: ['Automated follow-ups', 'Campaign management', 'Email tracking'],
-      url: 'https://woodpecker.co',
-      color: 'bg-yellow-500'
-    },
-    {
-      name: 'Instantly',
-      limit: 'Plans from $30/month',
-      features: ['Unlimited email accounts', 'Campaign builder', 'Deliverability tools'],
-      url: 'https://instantly.ai',
-      color: 'bg-blue-500'
-    },
-    {
-      name: 'Lemlist',
-      limit: 'Free trial: 14 days',
-      features: ['Personalization at scale', 'Multi-channel outreach', 'Advanced analytics'],
-      url: 'https://lemlist.com',
-      color: 'bg-green-500'
-    }
-  ];
 
   const subjectLines = [
     'Partnership opportunity: [Company] x T.A.P.',

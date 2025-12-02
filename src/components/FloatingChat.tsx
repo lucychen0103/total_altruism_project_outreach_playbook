@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { MessageCircle, X, Minus, Maximize2 } from "lucide-react";
+import { MessageCircle, Minus } from "lucide-react";
 import OpenAI from 'openai';
 
 type Role = "user" | "assistant";
@@ -37,7 +37,6 @@ const FloatingChat: React.FC<FloatingChatProps> = ({
   });
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const [isApiAvailable, setIsApiAvailable] = useState(true);
   const [isInitializing, setIsInitializing] = useState(true);
   const [knowledgeBase, setKnowledgeBase] = useState<ModuleChunk[]>([]);
   const [isMinimized, setIsMinimized] = useState(externalMinimized);
@@ -416,7 +415,7 @@ Focus on ACTIONABLE next steps the user can take right now. NEVER respond withou
     ];
 
     // Find the best matching pattern
-    for (const { pattern, module, priority } of intentPatterns) {
+    for (const { pattern, module } of intentPatterns) {
       if (pattern.test(combined)) {
         console.log(`📍 Module inferred from enhanced intent pattern: ${module}`);
         return module;
@@ -554,11 +553,9 @@ Focus on ACTIONABLE next steps the user can take right now. NEVER respond withou
       };
 
       setMessages((prev) => [...prev, botMessage]);
-      setIsApiAvailable(true);
 
     } catch (err: any) {
       console.error("OpenAI API error:", err);
-      setIsApiAvailable(false);
       
       // Use intelligent inference for fallback response too
       const fallbackModule = inferModuleFromContent("", trimmed, []);

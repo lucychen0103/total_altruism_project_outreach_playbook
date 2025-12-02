@@ -242,7 +242,7 @@ export default function Module6({ onComplete, onBack }: Module6Props) {
 
           <div className="space-y-4">
             <div className="flex gap-3 overflow-x-auto pb-2">
-              {objections.map((obj, idx) => (
+              {objections.map((_, idx) => (
                 <button
                   key={idx}
                   onClick={() => setSelectedObjection(idx)}

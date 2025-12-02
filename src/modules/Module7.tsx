@@ -1,5 +1,4 @@
 import ModuleLayout from '../components/ModuleLayout';
-import InteractiveTextArea from '../components/InteractiveTextArea';
 import ChecklistItem from '../components/ChecklistItem';
 import { Award, FileCheck, Heart, TrendingUp } from 'lucide-react';
 

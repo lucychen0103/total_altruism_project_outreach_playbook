@@ -1,5 +1,4 @@
 import ModuleLayout from '../components/ModuleLayout';
-import InteractiveTextArea from '../components/InteractiveTextArea';
 import ChecklistItem from '../components/ChecklistItem';
 import { Lightbulb, Target, Rocket, Sparkles, CheckCircle2, AlertCircle, Plus, Minus, TrendingUp } from 'lucide-react';
 import { useState, useEffect } from 'react';

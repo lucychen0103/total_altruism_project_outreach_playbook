@@ -1,6 +1,5 @@
 import ModuleLayout from '../components/ModuleLayout';
-import InteractiveTextArea from '../components/InteractiveTextArea';
-import { DollarSign, TrendingUp, Award, Package, Users } from 'lucide-react';
+import { TrendingUp, Award, Package, Users } from 'lucide-react';
 import { useState } from 'react';
 
 interface Module5Props {
