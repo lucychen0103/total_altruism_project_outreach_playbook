@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import { MessageCircle, Minus } from "lucide-react";
-import OpenAI from 'openai';
 
 type Role = "user" | "assistant";
 
@@ -43,11 +42,6 @@ const FloatingChat: React.FC<FloatingChatProps> = ({
   const [newMessageCount, setNewMessageCount] = useState(0);
 
   const scrollRef = useRef<HTMLDivElement | null>(null);
-
-  const openai = new OpenAI({
-    apiKey: import.meta.env.VITE_OPENAI_API_KEY,
-    dangerouslyAllowBrowser: true
-  });
 
   // Module files mapping - updated to use uploaded files
   const moduleFiles = [
@@ -237,44 +231,6 @@ const FloatingChat: React.FC<FloatingChatProps> = ({
     });
 
     return relevanceScore;
-  };
-
-  const buildSystemPromptWithContext = (relevantChunks: ModuleChunk[]): string => {
-    const basePrompt = `You are the TAP Coaching Assistant for The Total Altruism Project's sponsorship outreach program.
-
-IMPORTANT: Keep responses CONCISE and CHAT-FRIENDLY (2-4 short paragraphs max).
-
-CONTEXT FROM TAP MODULES:
-${relevantChunks.map(chunk => `
-**${chunk.title} (${chunk.moduleId})**
-${chunk.content}
----`).join('\n')}
-
-RESPONSE GUIDELINES:
-1. Answer using TAP context as PRIMARY source
-2. Keep responses SHORT and SCANNABLE (2-4 paragraphs max)
-3. Use bullet points or numbered lists when helpful
-4. ALWAYS reference specific TAP methods/frameworks when relevant
-5. CRITICAL: ALWAYS mention relevant modules using "**Module X: Title**" format to make them clickable
-6. MANDATORY: Always end with "Recommended module: Mx" on new line - NEVER skip this
-
-MODULE REFERENCE RULES:
-- If question relates to getting started/foundation → Always mention M1
-- If about research/targeting → Always mention M2  
-- If about finding contacts → Always mention M3
-- If about emails/outreach → Always mention M4
-- If about packages/pricing → Always mention M5
-- If about meetings/objections → Always mention M6
-- If about closing/partnerships → Always mention M7
-- When in doubt, default to the most relevant module based on content
-
-TONE: Conversational, practical, encouraging. Think "quick expert advice" not "comprehensive guide."
-
-Module reference: M1: Foundation, M2: Target Sponsors, M3: Contacts, M4: Email Outreach, M5: Proposals, M6: Negotiation, M7: Partnerships
-
-Focus on ACTIONABLE next steps the user can take right now. NEVER respond without a module recommendation.`;
-
-    return basePrompt;
   };
 
   const toggleMinimize = () => {
@@ -526,22 +482,30 @@ Focus on ACTIONABLE next steps the user can take right now. NEVER respond withou
 
     try {
       const relevantChunks = searchKnowledgeBase(trimmed, 3);
-      const systemPrompt = buildSystemPromptWithContext(relevantChunks);
 
-      const completion = await openai.chat.completions.create({
-        model: "gpt-4o-mini",
-        messages: [
-          { role: "system", content: systemPrompt },
-          ...nextMessages.map((m) => ({
-            role: m.role as "user" | "assistant",
+      // Call serverless API instead of OpenAI directly
+      const response = await fetch('/api/chat', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          messages: nextMessages.map((m) => ({
+            role: m.role,
             content: m.content,
           })),
-        ],
-        temperature: 0.4,
+          knowledgeBase: relevantChunks,
+        }),
       });
 
-      const assistantResponse = completion.choices[0].message.content;
-      if (!assistantResponse) throw new Error("No response from OpenAI");
+      if (!response.ok) {
+        throw new Error(`API error: ${response.status}`);
+      }
+
+      const data = await response.json();
+      const assistantResponse = data.message;
+
+      if (!assistantResponse) throw new Error("No response from API");
 
       const { text, moduleId } = parseAssistantMessage(assistantResponse, trimmed, relevantChunks);
 

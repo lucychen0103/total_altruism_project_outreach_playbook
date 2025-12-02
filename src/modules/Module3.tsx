@@ -103,13 +103,18 @@ export default function Module3({ onComplete, onBack }: Module3Props) {
     setFoundEmail(null);
 
     try {
-      const apiKey = import.meta.env.VITE_HUNTER_API_KEY;
-      if (!apiKey) {
-        throw new Error('Hunter.io API key not configured. Please add VITE_HUNTER_API_KEY to your environment variables.');
-      }
-
-      const apiUrl = `https://api.hunter.io/v2/email-finder?domain=${domain}&first_name=${firstName}&last_name=${lastName}&api_key=${apiKey}`;
-      const response = await fetch(apiUrl);
+      // Call serverless API instead of Hunter.io directly
+      const response = await fetch('/api/hunter', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          domain: domain.trim(),
+          firstName: firstName.trim(),
+          lastName: lastName.trim(),
+        }),
+      });
 
       if (!response.ok) {
         throw new Error(`API error: ${response.status} ${response.statusText}`);

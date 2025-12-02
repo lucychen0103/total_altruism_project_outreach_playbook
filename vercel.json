@@ -20,9 +20,5 @@
         }
       ]
     }
-  ],
-  "env": {
-    "VITE_OPENAI_API_KEY": "@vite_openai_api_key",
-    "VITE_HUNTER_API_KEY": "@vite_hunter_api_key"
-  }
+  ]
 }
